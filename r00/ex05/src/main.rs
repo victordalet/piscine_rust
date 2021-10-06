@@ -1,8 +1,8 @@
 fn ft_print_comb() {
-    for (a = 0 ; a < 9 ; a++){
-        for (b = 0 ; b < 9 ; b++){
-            for (c = 0 ; c < 9 ; c++){
-                print("{}{}{}\n",a,b,c);
+    for a in 0..10 {
+        for b in 0..10 {
+            for c in 0..10{
+                println!("{}{}{}\n",a,b,c);
             }
         }
     }
